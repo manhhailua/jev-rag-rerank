@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb.execute
+/executed*.ipynb
+/tmp/
+*.executed.ipynb
+
+# Secrets — KHÔNG bao giờ commit key thật
+.env
+*.env
+config.env
+~/.config/env
+
+# OS / editor
+.DS_Store
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Local scratch
+json_cache.json
